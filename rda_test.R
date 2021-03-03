@@ -1,8 +1,9 @@
 ### import adegenet script env
-load("G:/DATA/WORK/PENDING P6 ALEX THESIS/20210216_Back_from_NZJMFR/R/RDA/script_adegenet_new.RData")
 
 #Script to perform a Redundancy Analysis (RDA) using spatial data, obtained from the paper:
 #Meirmans, P.G. (2015) Seven common mistakes in population genetics and how to avoid them; Molecular Ecology.
+
+#need environment from popgen script to import all required objects
 
 library(hierfstat)
 library(vegan)
@@ -11,7 +12,6 @@ library(reshape)
 
 library("gdistance")
 library("MASS")
-
 
 library(ape)
 #read.dna
